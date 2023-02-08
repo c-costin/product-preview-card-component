@@ -1,0 +1,23 @@
+/* Import Components */
+@import url("./components/card-product.css");
+@import url("./components/attribution.css");
+
+/* Body */
+body {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Section: products-list */
+.products-list {
+    margin: 2rem 1rem;
+}
+
+/* Footer */
+.footer {
+    margin: 1rem;
+}

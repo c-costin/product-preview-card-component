@@ -1,0 +1,29 @@
+/* Declaration variables */
+:root {
+    /* Colors - primary */
+    --color-primary-dark-cyan: hsl(158, 36%, 37%);
+    --color-primary-very-dark-cyan: hsl(158, 36%, 17%);
+    --color-primary-cream: hsl(30, 38%, 92%);
+
+    /* Colors neutral */
+    --color-neutral-very-dark-blue: hsl(212, 21%, 14%);
+    --color-neutral-dark-grayish-blue: hsl(228, 12%, 48%);
+    --color-neutral-white: hsl(0, 0%, 100%);
+
+    /* Font-family */
+    --font-primary: 'Montserrat', sans-serif;
+    --font-secondary: 'Fraunces', serif;
+
+    /* Font-size */
+    --fs-paragraph: 14px;
+
+    /* Font-weight */
+    --fw-500: 500;
+    --fw-700: 700;
+}
+
+body {
+    font-family: var(--font-primary);
+    color: var(--color-neutral-dark-grayish-blue);
+    background: var(--color-primary-cream);
+}

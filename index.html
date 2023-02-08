@@ -5,14 +5,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=fraunces:700|montserrat:500,700" rel="stylesheet" crossorigin="anonymous" />
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/theme.css">
     <link rel="stylesheet" href="./assets/css/main.css">
-    <title>Document</title>
+    <title>Frontend Mentor | Product preview card component</title>
 </head>
 
 <body>
+    <section class="products-list">
+        <article class="product">
+            <picture class="product__img">
+                <source media="(max-width:640px)" srcset="./assets/images/image-product-mobile.jpg">
+                <source media="(min-width:640px)" srcset="./assets/images/image-product-desktop.jpg">
+                <img src="./assets/images/image-product-mobile.jpg" alt="Image of a perfume" style="width: auto;">
+            </picture>
+            <div class="product__content">
+                <p class="product__type">
+                    Perfume
+                </p>
+                <h3 class="product__title">
+                    Gabrielle Essence Eau De Parfum
+                </h3>
+                <p class="product__desc">
+                    A floral, solar and voluptuous interpretation composed by Olivier Polge,
+                    Perfumer-Creator for the House of CHANEL.
+                </p>
+                <div class="product__prices">
+                    <p class="product__promotion">$149.99</p>
+                    <p class="product__price">$169.99</p>
+                </div>
+                <button class="product__button-cart">
+                    <img src="./assets/images/icon-cart.svg" alt="">
+                    Add to Cart
+                </button>
+            </div>
+        </article>
+    </section>
 
+    <footer class="footer">
+        <p class="footer__attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+                rel="noopener noreferrer">Frontend Mentor</a>.
+            Coded by <a href="https://costincadeau.fr" target="_blank" rel="noopener noreferrer">Costin Cadeau</a>.
+        </p>
+    </footer>
 </body>
 
 </html>
